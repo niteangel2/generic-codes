@@ -14,7 +14,6 @@ public class Hashmap {
 		System.out.println(s);
 		map.put("abc",1);
 		map.put("abc1",2);
-		map.put("def", 3);
 		System.out.println(  map.get("def"));
 		Set<String> keys=map.keySet();
 		for(String str:keys) {
